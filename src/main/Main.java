@@ -7,18 +7,22 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        try {
-            ConsultaGitHub consultaGitHub = new ConsultaGitHub();
-            Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-            System.out.print("Digite o nome de usuário do GitHub: ");
+        while (true) {
+            System.out.print("Digite o nome de usuário do GitHub ou 'sair' para encerrar: ");
             String username = scanner.nextLine();
+            if (username.equalsIgnoreCase("sair")) {
+                System.out.println("Encerrando o programa...");
+                break;
+            }
 
-            String resultado = consultaGitHub.buscarDadosUsuario(username);
-            System.out.println(resultado);
-
-        } catch (ErroConsultaGitHubException e) {
-            System.err.println(e.getMessage());
+            try {
+                String resultado = ConsultaGitHub.buscarDadosUsuario(username);
+                System.out.println(resultado);
+            } catch (ErroConsultaGitHubException e) {
+                System.err.println(e.getMessage());
+            }
         }
     }
 }

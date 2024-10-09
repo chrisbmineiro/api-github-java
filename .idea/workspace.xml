@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25257b7b-9771-4b9e-b0c8-1362113f9393" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-github.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ErroConsultaGitHubException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/GitHubMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/GitHubUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ConsultaGitHub.java" afterDir="false" />
+    <list default="true" id="25257b7b-9771-4b9e-b0c8-1362113f9393" name="Changes" comment="adicionando Main e testando">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -72,6 +65,37 @@
       <option name="presentableId" value="Default" />
       <updated>1728514580149</updated>
     </task>
+    <task id="LOCAL-00001" summary="projeto base">
+      <option name="closed" value="true" />
+      <created>1728516362052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728516362052</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adicionando service ConsultaGitHub, model GitHubUser e exception personalizada ErroConsultaGitHubException">
+      <option name="closed" value="true" />
+      <created>1728516430563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728516430563</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adicionando Main e testando">
+      <option name="closed" value="true" />
+      <created>1728516457474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728516457474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="projeto base" />
+    <MESSAGE value="adicionando service ConsultaGitHub, model GitHubUser e exception personalizada ErroConsultaGitHubException" />
+    <MESSAGE value="adicionando Main e testando" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando Main e testando" />
   </component>
 </project>
